@@ -4,6 +4,9 @@
 Icon
 .DS_Store
 
+# Sass
+.sass-cache/
+
 # Temporary files
 # ---------------
 
