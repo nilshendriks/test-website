@@ -1,15 +1,21 @@
 {
 "requests": [
     {
-      "id": "003",
+      "id": 3,
       "date": "2021-04-21T13:56:23",
       "comment": "Hendriks",
       "status": "open"
     },
     {
-      "id": "001",
+      "id": 1,
       "date": "2019-04-21T11:26:01",
       "comment": "Hendriks II",
+      "status": "closed"
+    },
+    {
+      "id": 2,
+      "date": "2020-11-11T21:55:30Z",
+      "comment": "Molly",
       "status": "closed"
     }
   ]
