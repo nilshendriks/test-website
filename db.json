@@ -1,40 +1,9 @@
 {
 "requests": [
     {
-      "date": "11-04-2021",
       "id": "003",
       "comment": "Hendriks",
       "status": "open"
-    },
-    {
-      "date": "10-04-2021",
-      "id": "002",
-      "comment": "BerendHuizen",
-      "status": "open"
-    },
-    {
-      "date": "04-03-2021",
-      "id": "001",
-      "comment": "BerendHuizen",
-      "status": "closed"
-    },
-    {
-      "date": "29-03-2021",
-      "id": "509838",
-      "comment": "Overbeeke",
-      "status": "completed"
-    },
-    {
-      "date": "26-04-2021",
-      "id": "514162",
-      "comment": "8009 Kamphuis",
-      "status": "InProgress"
-    },
-    {
-      "date": "27-04-2021",
-      "id": "514163",
-      "comment": "Schalm",
-      "status": "rejected"
     }
   ]
 }
