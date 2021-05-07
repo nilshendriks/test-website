@@ -5,6 +5,12 @@
       "date": "11-04-2021",
       "comment": "Hendriks",
       "status": "open"
+    },
+    {
+      "id": "001",
+      "date": "11-04-2019",
+      "comment": "Hendriks II",
+      "status": "closed"
     }
   ]
 }
