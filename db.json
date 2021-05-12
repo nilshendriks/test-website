@@ -1,90 +1,628 @@
 {
-  "requests": [
-      {
-          "id": 3,
-          "date": "2021-04-21T13:56:23",
-          "comment": "Hendriks",
-          "status": "open"
-      },
-      {
-          "id": 1,
-          "date": "2019-04-21T11:26:01",
-          "comment": "Hendriks II",
-          "status": "closed"
-      },
-      {
-          "id": 2,
-          "date": "2020-11-11T21:55:30Z",
-          "comment": "Molly",
-          "status": "closed"
-      },
-      {
-          "id": 4,
-          "date": "2021-05-12T22:55:30Z",
-          "comment": "Neva",
-          "status": "in progress"
-      }
+  "requests": [{
+      "id": 3,
+      "date": "2021-04-21T13:56:23",
+      "comment": "Hendriks",
+      "status": "open"
+    },
+    {
+      "id": 1,
+      "date": "2019-04-21T11:26:01",
+      "comment": "Hendriks II",
+      "status": "closed"
+    },
+    {
+      "id": 2,
+      "date": "2020-11-11T21:55:30Z",
+      "comment": "Molly",
+      "status": "closed"
+    },
+    {
+      "id": 4,
+      "date": "2021-05-12T22:55:30Z",
+      "comment": "Neva",
+      "status": "in progress"
+    }
   ],
-  "SKUs": [
-      {
-          "id": 1,
-          "published": false,
-          "sku": "T-RC-507-27-2-9500-STD-B-B",
-          "price": 1415.9
-      },
-      {
-          "id": 2,
-          "published": true,
-          "sku": "T-RC-217-25-9-7657-STD-B-B",
-          "price": 9142.5
-      },
-      {
-          "id": 3,
-          "published": true,
-          "sku": "T-RC-390-42-3-1992-STD-B-B",
-          "price": 3865.76
-      },
-      {
-          "id": 4,
-          "published": true,
-          "sku": "T-RC-965-70-2-3249-STD-B-B",
-          "price": 1681.81
-      },
-      {
-          "id": 5,
-          "published": false,
-          "sku": "T-RC-120-23-8-5712-STD-B-B",
-          "price": 2187.76
-      },
-      {
-          "id": 6,
-          "published": false,
-          "sku": "T-RC-759-71-4-7907-STD-B-B",
-          "price": 3838.8
-      },
-      {
-          "id": 7,
-          "published": true,
-          "sku": "T-RC-897-93-5-3083-STD-B-B",
-          "price": 4155.99
-      },
-      {
-          "id": 8,
-          "published": true,
-          "sku": "T-RC-905-60-0-6119-STD-B-B",
-          "price": 5289.14
-      },
-      {
-          "id": 9,
-          "published": false,
-          "sku": "T-RC-405-42-3-9335-STD-B-B",
-          "price": 629.32
-      },
-      {
-          "id": 10,
-          "published": true,
-          "sku": "T-RC-695-84-3-2283-STD-B-B",
-          "price": 4526.98
-      }
+  "SKUs": [{
+      "id": 1,
+      "published": false,
+      "sku": "T-RC-507-27-2-9500-STD-B-B",
+      "price": 1415.9
+    },
+    {
+      "id": 2,
+      "published": true,
+      "sku": "T-RC-217-25-9-7657-STD-B-B",
+      "price": 9142.5
+    },
+    {
+      "id": 3,
+      "published": true,
+      "sku": "T-RC-390-42-3-1992-STD-B-B",
+      "price": 3865.76
+    },
+    {
+      "id": 4,
+      "published": true,
+      "sku": "T-RC-965-70-2-3249-STD-B-B",
+      "price": 1681.81
+    },
+    {
+      "id": 5,
+      "published": false,
+      "sku": "T-RC-120-23-8-5712-STD-B-B",
+      "price": 2187.76
+    },
+    {
+      "id": 6,
+      "published": false,
+      "sku": "T-RC-759-71-4-7907-STD-B-B",
+      "price": 3838.8
+    },
+    {
+      "id": 7,
+      "published": true,
+      "sku": "T-RC-897-93-5-3083-STD-B-B",
+      "price": 4155.99
+    },
+    {
+      "id": 8,
+      "published": true,
+      "sku": "T-RC-905-60-0-6119-STD-B-B",
+      "price": 5289.14
+    },
+    {
+      "id": 9,
+      "published": false,
+      "sku": "T-RC-405-42-3-9335-STD-B-B",
+      "price": 629.32
+    },
+    {
+      "id": 10,
+      "published": true,
+      "sku": "T-RC-695-84-3-2283-STD-B-B",
+      "price": 4526.98
+    },
+    {
+      "id": 11,
+      "published": false,
+      "sku": "T-RC-310-38-5-2224-STD-B-B",
+      "price": 2066.17
+    },
+    {
+      "id": 12,
+      "published": false,
+      "sku": "T-RC-895-51-6-7261-STD-B-B",
+      "price": 5935.57
+    },
+    {
+      "id": 13,
+      "published": false,
+      "sku": "T-RC-717-84-3-7690-STD-B-B",
+      "price": 4972.37
+    },
+    {
+      "id": 14,
+      "published": true,
+      "sku": "T-RC-847-54-1-0976-STD-B-B",
+      "price": 1547.32
+    },
+    {
+      "id": 15,
+      "published": true,
+      "sku": "T-RC-730-22-8-7548-STD-B-B",
+      "price": 2537.63
+    },
+    {
+      "id": 16,
+      "published": true,
+      "sku": "T-RC-312-08-6-1489-STD-B-B",
+      "price": 6481.89
+    },
+    {
+      "id": 17,
+      "published": false,
+      "sku": "T-RC-469-30-8-6537-STD-B-B",
+      "price": 2094.83
+    },
+    {
+      "id": 18,
+      "published": true,
+      "sku": "T-RC-567-06-1-8187-STD-B-B",
+      "price": 53.31
+    },
+    {
+      "id": 19,
+      "published": false,
+      "sku": "T-RC-862-40-5-3419-STD-B-B",
+      "price": 6000.39
+    },
+    {
+      "id": 20,
+      "published": false,
+      "sku": "T-RC-894-69-8-4783-STD-B-B",
+      "price": 3479.44
+    },
+    {
+      "id": 21,
+      "published": false,
+      "sku": "T-RC-878-59-5-9512-STD-B-B",
+      "price": 4531.67
+    },
+    {
+      "id": 22,
+      "published": true,
+      "sku": "T-RC-596-27-0-8128-STD-B-B",
+      "price": 7212.35
+    },
+    {
+      "id": 23,
+      "published": false,
+      "sku": "T-RC-145-12-4-1288-STD-B-B",
+      "price": 7936.92
+    },
+    {
+      "id": 24,
+      "published": false,
+      "sku": "T-RC-494-27-0-0073-STD-B-B",
+      "price": 5772.52
+    },
+    {
+      "id": 25,
+      "published": true,
+      "sku": "T-RC-017-99-0-1119-STD-B-B",
+      "price": 7108.61
+    },
+    {
+      "id": 26,
+      "published": false,
+      "sku": "T-RC-445-76-6-5461-STD-B-B",
+      "price": 7143.33
+    },
+    {
+      "id": 27,
+      "published": false,
+      "sku": "T-RC-078-04-8-6206-STD-B-B",
+      "price": 9793.57
+    },
+    {
+      "id": 28,
+      "published": true,
+      "sku": "T-RC-253-43-8-6394-STD-B-B",
+      "price": 5593.6
+    },
+    {
+      "id": 29,
+      "published": true,
+      "sku": "T-RC-556-44-4-2994-STD-B-B",
+      "price": 5342.69
+    },
+    {
+      "id": 30,
+      "published": true,
+      "sku": "T-RC-597-42-3-5201-STD-B-B",
+      "price": 6852.27
+    },
+    {
+      "id": 31,
+      "published": false,
+      "sku": "T-RC-823-36-5-2689-STD-B-B",
+      "price": 3731.31
+    },
+    {
+      "id": 32,
+      "published": false,
+      "sku": "T-RC-405-81-1-6906-STD-B-B",
+      "price": 4887.79
+    },
+    {
+      "id": 33,
+      "published": true,
+      "sku": "T-RC-895-81-6-2005-STD-B-B",
+      "price": 3906.6
+    },
+    {
+      "id": 34,
+      "published": true,
+      "sku": "T-RC-297-09-7-5863-STD-B-B",
+      "price": 8301.68
+    },
+    {
+      "id": 35,
+      "published": true,
+      "sku": "T-RC-578-98-7-2174-STD-B-B",
+      "price": 6656.22
+    },
+    {
+      "id": 36,
+      "published": false,
+      "sku": "T-RC-384-01-1-9922-STD-B-B",
+      "price": 8833.08
+    },
+    {
+      "id": 37,
+      "published": false,
+      "sku": "T-RC-666-60-0-8593-STD-B-B",
+      "price": 4076.89
+    },
+    {
+      "id": 38,
+      "published": false,
+      "sku": "T-RC-163-65-6-3962-STD-B-B",
+      "price": 4058.47
+    },
+    {
+      "id": 39,
+      "published": false,
+      "sku": "T-RC-908-80-2-1205-STD-B-B",
+      "price": 752.83
+    },
+    {
+      "id": 40,
+      "published": true,
+      "sku": "T-RC-024-99-8-6719-STD-B-B",
+      "price": 9182.41
+    },
+    {
+      "id": 41,
+      "published": false,
+      "sku": "T-RC-107-13-6-0906-STD-B-B",
+      "price": 3779.7
+    },
+    {
+      "id": 42,
+      "published": true,
+      "sku": "T-RC-193-56-0-2243-STD-B-B",
+      "price": 9682.4
+    },
+    {
+      "id": 43,
+      "published": true,
+      "sku": "T-RC-556-52-9-7061-STD-B-B",
+      "price": 6644.14
+    },
+    {
+      "id": 44,
+      "published": false,
+      "sku": "T-RC-297-75-7-3751-STD-B-B",
+      "price": 7168.96
+    },
+    {
+      "id": 45,
+      "published": true,
+      "sku": "T-RC-515-21-8-2137-STD-B-B",
+      "price": 3885.81
+    },
+    {
+      "id": 46,
+      "published": true,
+      "sku": "T-RC-945-10-6-4881-STD-B-B",
+      "price": 7349.45
+    },
+    {
+      "id": 47,
+      "published": true,
+      "sku": "T-RC-038-78-9-9933-STD-B-B",
+      "price": 1245.82
+    },
+    {
+      "id": 48,
+      "published": true,
+      "sku": "T-RC-512-07-1-7024-STD-B-B",
+      "price": 2188.01
+    },
+    {
+      "id": 49,
+      "published": false,
+      "sku": "T-RC-068-58-9-2634-STD-B-B",
+      "price": 254.26
+    },
+    {
+      "id": 50,
+      "published": false,
+      "sku": "T-RC-524-14-1-9900-STD-B-B",
+      "price": 316.55
+    },
+    {
+      "id": 51,
+      "published": true,
+      "sku": "T-RC-707-89-6-6092-STD-B-B",
+      "price": 5413.99
+    },
+    {
+      "id": 52,
+      "published": false,
+      "sku": "T-RC-564-64-6-4393-STD-B-B",
+      "price": 9957.37
+    },
+    {
+      "id": 53,
+      "published": false,
+      "sku": "T-RC-497-80-5-6676-STD-B-B",
+      "price": 9153.95
+    },
+    {
+      "id": 54,
+      "published": true,
+      "sku": "T-RC-786-06-6-7225-STD-B-B",
+      "price": 1640.69
+    },
+    {
+      "id": 55,
+      "published": true,
+      "sku": "T-RC-077-44-0-1716-STD-B-B",
+      "price": 1298.03
+    },
+    {
+      "id": 56,
+      "published": true,
+      "sku": "T-RC-977-67-7-8429-STD-B-B",
+      "price": 1098.1
+    },
+    {
+      "id": 57,
+      "published": true,
+      "sku": "T-RC-413-79-3-7343-STD-B-B",
+      "price": 236.13
+    },
+    {
+      "id": 58,
+      "published": true,
+      "sku": "T-RC-193-45-6-0880-STD-B-B",
+      "price": 8176.17
+    },
+    {
+      "id": 59,
+      "published": true,
+      "sku": "T-RC-888-94-9-5946-STD-B-B",
+      "price": 6979.61
+    },
+    {
+      "id": 60,
+      "published": false,
+      "sku": "T-RC-517-85-8-3213-STD-B-B",
+      "price": 8594.59
+    },
+    {
+      "id": 61,
+      "published": true,
+      "sku": "T-RC-511-17-3-1279-STD-B-B",
+      "price": 1064.87
+    },
+    {
+      "id": 62,
+      "published": false,
+      "sku": "T-RC-755-47-2-1656-STD-B-B",
+      "price": 337.38
+    },
+    {
+      "id": 63,
+      "published": true,
+      "sku": "T-RC-397-28-0-2989-STD-B-B",
+      "price": 3205.09
+    },
+    {
+      "id": 64,
+      "published": true,
+      "sku": "T-RC-590-98-3-4928-STD-B-B",
+      "price": 7003.41
+    },
+    {
+      "id": 65,
+      "published": false,
+      "sku": "T-RC-867-12-5-1544-STD-B-B",
+      "price": 9571.22
+    },
+    {
+      "id": 66,
+      "published": false,
+      "sku": "T-RC-683-63-9-4453-STD-B-B",
+      "price": 7291.32
+    },
+    {
+      "id": 67,
+      "published": false,
+      "sku": "T-RC-569-30-9-9404-STD-B-B",
+      "price": 6310.67
+    },
+    {
+      "id": 68,
+      "published": true,
+      "sku": "T-RC-026-43-5-3997-STD-B-B",
+      "price": 5661.41
+    },
+    {
+      "id": 69,
+      "published": false,
+      "sku": "T-RC-930-77-8-0976-STD-B-B",
+      "price": 2637.6
+    },
+    {
+      "id": 70,
+      "published": true,
+      "sku": "T-RC-136-73-9-5551-STD-B-B",
+      "price": 7341.93
+    },
+    {
+      "id": 71,
+      "published": false,
+      "sku": "T-RC-140-30-6-2969-STD-B-B",
+      "price": 5744.44
+    },
+    {
+      "id": 72,
+      "published": false,
+      "sku": "T-RC-331-05-6-9957-STD-B-B",
+      "price": 8533.21
+    },
+    {
+      "id": 73,
+      "published": false,
+      "sku": "T-RC-468-07-3-1938-STD-B-B",
+      "price": 6819.51
+    },
+    {
+      "id": 74,
+      "published": true,
+      "sku": "T-RC-126-79-1-2895-STD-B-B",
+      "price": 8125.4
+    },
+    {
+      "id": 75,
+      "published": true,
+      "sku": "T-RC-604-58-6-3271-STD-B-B",
+      "price": 9333.56
+    },
+    {
+      "id": 76,
+      "published": false,
+      "sku": "T-RC-584-65-9-1853-STD-B-B",
+      "price": 1173.92
+    },
+    {
+      "id": 77,
+      "published": true,
+      "sku": "T-RC-973-62-7-2077-STD-B-B",
+      "price": 8019.22
+    },
+    {
+      "id": 78,
+      "published": true,
+      "sku": "T-RC-135-39-9-2442-STD-B-B",
+      "price": 45.15
+    },
+    {
+      "id": 79,
+      "published": false,
+      "sku": "T-RC-557-73-5-3759-STD-B-B",
+      "price": 878.38
+    },
+    {
+      "id": 80,
+      "published": true,
+      "sku": "T-RC-022-98-4-2232-STD-B-B",
+      "price": 2647.35
+    },
+    {
+      "id": 81,
+      "published": false,
+      "sku": "T-RC-169-21-0-7630-STD-B-B",
+      "price": 9214.6
+    },
+    {
+      "id": 82,
+      "published": true,
+      "sku": "T-RC-474-47-8-9670-STD-B-B",
+      "price": 1672.36
+    },
+    {
+      "id": 83,
+      "published": false,
+      "sku": "T-RC-958-08-2-5860-STD-B-B",
+      "price": 5473.33
+    },
+    {
+      "id": 84,
+      "published": true,
+      "sku": "T-RC-656-56-9-5135-STD-B-B",
+      "price": 9172.1
+    },
+    {
+      "id": 85,
+      "published": true,
+      "sku": "T-RC-272-32-2-3769-STD-B-B",
+      "price": 7686.27
+    },
+    {
+      "id": 86,
+      "published": true,
+      "sku": "T-RC-037-93-3-8791-STD-B-B",
+      "price": 4066.47
+    },
+    {
+      "id": 87,
+      "published": true,
+      "sku": "T-RC-302-67-2-1538-STD-B-B",
+      "price": 4213.18
+    },
+    {
+      "id": 88,
+      "published": false,
+      "sku": "T-RC-197-09-4-6755-STD-B-B",
+      "price": 3677.13
+    },
+    {
+      "id": 89,
+      "published": false,
+      "sku": "T-RC-117-41-8-3158-STD-B-B",
+      "price": 2691.16
+    },
+    {
+      "id": 90,
+      "published": true,
+      "sku": "T-RC-832-40-6-6860-STD-B-B",
+      "price": 4545.82
+    },
+    {
+      "id": 91,
+      "published": true,
+      "sku": "T-RC-709-33-1-0146-STD-B-B",
+      "price": 3453.61
+    },
+    {
+      "id": 92,
+      "published": false,
+      "sku": "T-RC-590-95-6-5597-STD-B-B",
+      "price": 195.58
+    },
+    {
+      "id": 93,
+      "published": true,
+      "sku": "T-RC-813-29-8-4586-STD-B-B",
+      "price": 9862.09
+    },
+    {
+      "id": 94,
+      "published": false,
+      "sku": "T-RC-216-25-1-0427-STD-B-B",
+      "price": 8536.66
+    },
+    {
+      "id": 95,
+      "published": true,
+      "sku": "T-RC-590-88-6-9321-STD-B-B",
+      "price": 455.58
+    },
+    {
+      "id": 96,
+      "published": true,
+      "sku": "T-RC-192-81-1-4892-STD-B-B",
+      "price": 5211.12
+    },
+    {
+      "id": 97,
+      "published": false,
+      "sku": "T-RC-319-07-8-2998-STD-B-B",
+      "price": 982.62
+    },
+    {
+      "id": 98,
+      "published": false,
+      "sku": "T-RC-754-66-4-9793-STD-B-B",
+      "price": 2155.31
+    },
+    {
+      "id": 99,
+      "published": true,
+      "sku": "T-RC-296-99-0-3838-STD-B-B",
+      "price": 1453.23
+    },
+    {
+      "id": 100,
+      "published": true,
+      "sku": "T-RC-834-82-7-2111-STD-B-B",
+      "price": 1508.15
+    }
   ]
 }
