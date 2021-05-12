@@ -1,28 +1,90 @@
 {
-"requests": [
-    {
-      "id": 3,
-      "date": "2021-04-21T13:56:23",
-      "comment": "Hendriks",
-      "status": "open"
-    },
-    {
-      "id": 1,
-      "date": "2019-04-21T11:26:01",
-      "comment": "Hendriks II",
-      "status": "closed"
-    },
-    {
-      "id": 2,
-      "date": "2020-11-11T21:55:30Z",
-      "comment": "Molly",
-      "status": "closed"
-    },
-    {
-      "id": 4,
-      "date": "2021-05-12T22:55:30Z",
-      "comment": "Neva",
-      "status": "in progress"
-    }
+  "requests": [
+      {
+          "id": 3,
+          "date": "2021-04-21T13:56:23",
+          "comment": "Hendriks",
+          "status": "open"
+      },
+      {
+          "id": 1,
+          "date": "2019-04-21T11:26:01",
+          "comment": "Hendriks II",
+          "status": "closed"
+      },
+      {
+          "id": 2,
+          "date": "2020-11-11T21:55:30Z",
+          "comment": "Molly",
+          "status": "closed"
+      },
+      {
+          "id": 4,
+          "date": "2021-05-12T22:55:30Z",
+          "comment": "Neva",
+          "status": "in progress"
+      }
+  ],
+  "SKUs": [
+      {
+          "id": 1,
+          "published": false,
+          "sku": "T-RC-507-27-2-9500-STD-B-B",
+          "price": 1415.9
+      },
+      {
+          "id": 2,
+          "published": true,
+          "sku": "T-RC-217-25-9-7657-STD-B-B",
+          "price": 9142.5
+      },
+      {
+          "id": 3,
+          "published": true,
+          "sku": "T-RC-390-42-3-1992-STD-B-B",
+          "price": 3865.76
+      },
+      {
+          "id": 4,
+          "published": true,
+          "sku": "T-RC-965-70-2-3249-STD-B-B",
+          "price": 1681.81
+      },
+      {
+          "id": 5,
+          "published": false,
+          "sku": "T-RC-120-23-8-5712-STD-B-B",
+          "price": 2187.76
+      },
+      {
+          "id": 6,
+          "published": false,
+          "sku": "T-RC-759-71-4-7907-STD-B-B",
+          "price": 3838.8
+      },
+      {
+          "id": 7,
+          "published": true,
+          "sku": "T-RC-897-93-5-3083-STD-B-B",
+          "price": 4155.99
+      },
+      {
+          "id": 8,
+          "published": true,
+          "sku": "T-RC-905-60-0-6119-STD-B-B",
+          "price": 5289.14
+      },
+      {
+          "id": 9,
+          "published": false,
+          "sku": "T-RC-405-42-3-9335-STD-B-B",
+          "price": 629.32
+      },
+      {
+          "id": 10,
+          "published": true,
+          "sku": "T-RC-695-84-3-2283-STD-B-B",
+          "price": 4526.98
+      }
   ]
 }
