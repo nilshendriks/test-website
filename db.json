@@ -22,6 +22,29 @@
       "date": "2021-05-12T22:55:30Z",
       "comment": "Neva",
       "status": "in progress"
+    },{
+      "id": 5,
+      "date": "2022-04-21T13:56:23",
+      "comment": "Pa",
+      "status": "open"
+    },
+    {
+      "id": 6,
+      "date": "2023-04-21T11:26:01",
+      "comment": "Fekete",
+      "status": "closed"
+    },
+    {
+      "id": 7,
+      "date": "2024-11-11T21:55:30Z",
+      "comment": "Kubben",
+      "status": "closed"
+    },
+    {
+      "id": 8,
+      "date": "2025-05-12T22:55:30Z",
+      "comment": "Barb",
+      "status": "in progress"
     }
   ],
   "SKUs": [{
