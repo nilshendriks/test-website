@@ -98,14 +98,14 @@
     {
       "id": 1,
       "date": "2021-04-08T13:01:01",
-      "ordernumber": "9079167-184787"
+      "ordernumber": "9079167-184787",
       "custref": "B-Berendhuizen",
       "status": "processing"
     },
     {
       "id": 2,
       "date": "2021-04-09T13:01:02",
-      "ordernumber": "9079167-184788"
+      "ordernumber": "9079167-184788",
       "custref": "Hendriks",
       "status": "order received"
     }
