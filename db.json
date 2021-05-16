@@ -94,8 +94,7 @@
       "status": "in progress"
     }
   ],
-  "orders": [
-    {
+  "orders": [{
       "id": 1,
       "date": "2021-04-08T13:01:01",
       "ordernumber": "9079167-184787",
