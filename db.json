@@ -283,5 +283,24 @@
       "sku": "T-RC-556-44-4-2994-STD-B-B",
       "price": 5342.69
     }
-  ]
+  ],
+  "stocks": [{
+      "id": 1,
+      "description": "Frames Butterfly Quadpod, Frame finish: Steel black powdercoating"
+      "SKU": "BQ-B",
+      "stock": 56
+    },
+    {
+      "id": 2,
+      "description": "Frames Butterfly Quadpod, Frame finish: Steel white powdercoating"
+      "SKU": "BQ-W",
+      "stock": 7
+    },
+    {
+      "id": 3,
+      "description": "Dining table top, Top shape: Rectangular, Top edge finish: Chamfered round corners, Top finish: Oak hardwax oil natural light 3041 (3041), Top length: 200cm, Top width: 90cm, Top thickness: 3cm"
+      "SKU": "T-RC-200-90-3-3041-CRC",
+      "stock": 24
+    }
+  ],
 }
