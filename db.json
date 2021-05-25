@@ -333,5 +333,12 @@
       "sku": "T-RC-556-44-4-2994-STD-B-B",
       "price": 5342.69
     }
+  ],
+  "stocks": [{
+      "id": 1,
+      "description": "Frames Butterfly Quadpod <br />Frame finish: Steel black powdercoating",
+      "SKU": "BQ-B",
+      "inStock": 56
+    }
   ]
 }
