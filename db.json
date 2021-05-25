@@ -345,6 +345,30 @@
       "description": "Frames Butterfly Quadpod <br />Frame finish: Steel white powdercoating",
       "SKU": "BQ-W",
       "inStock": 7
+    },
+             {
+      "id": 3,
+      "description": "Frames Butterfly Quadpod <br />Frame finish: Steel black powdercoating",
+      "SKU": "T-RC-200-90-3-3041-CRC",
+      "inStock": 24
+    },
+    {
+      "id": 4,
+      "description": "Frames Butterfly Quadpod <br />Frame finish: Steel white powdercoating",
+      "SKU": "SX-B",
+      "inStock": 70
+    },
+    {
+      "id": 5,
+      "description": "Frames Butterfly Quadpod <br />Frame finish: Steel black powdercoating",
+      "SKU": "SX-W",
+      "inStock": 5
+    },
+    {
+      "id": 6,
+      "description": "Frames Butterfly Quadpod <br />Frame finish: Steel white powdercoating",
+      "SKU": "SC-W",
+      "inStock": 12
     }
   ]
 }
