@@ -339,6 +339,12 @@
       "description": "Frames Butterfly Quadpod <br />Frame finish: Steel black powdercoating",
       "SKU": "BQ-B",
       "inStock": 56
+    },
+    {
+      "id": 2,
+      "description": "Frames Butterfly Quadpod <br />Frame finish: Steel white powdercoating",
+      "SKU": "BQ-W",
+      "inStock": 7
     }
   ]
 }
