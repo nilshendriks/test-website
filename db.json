@@ -348,27 +348,33 @@
     },
              {
       "id": 3,
-      "description": "Frames Butterfly Quadpod <br />Frame finish: Steel black powdercoating",
+      "description": "Dining table top<br />Top shape: Rectangular<br />Top edge finish: Chamfered round corners<br />Top finish: Oak hardwax oil natural light 3041 (3041)<br />Top length: 200cm<br />Top width: 90cm<br />Top thickness: 3cm",
       "SKU": "T-RC-200-90-3-3041-CRC",
       "inStock": 24
     },
     {
       "id": 4,
-      "description": "Frames Butterfly Quadpod <br />Frame finish: Steel white powdercoating",
-      "SKU": "SX-B",
-      "inStock": 70
-    },
-    {
-      "id": 5,
-      "description": "Frames Butterfly Quadpod <br />Frame finish: Steel black powdercoating",
-      "SKU": "SX-W",
+      "description": "Dining bench frame New Classic Bench<br />Frame finish: Steel white powdercoating",
+      "SKU": "NCB-W",
       "inStock": 5
     },
     {
+      "id": 5,
+      "description": "Coffee table frame Frame<br />finish: Black	",
+      "SKU": "BQC400-B",
+      "inStock": 3
+    },
+    {
       "id": 6,
-      "description": "Frames Butterfly Quadpod <br />Frame finish: Steel white powdercoating",
-      "SKU": "SC-W",
-      "inStock": 12
+      "description": "Coffee table tops<br />Top finish: Oak black lacquer (9005)<br />Top shape: Round<br />Diameter: 70cm<br />Top thickness: 3cm<br />Top edge finish: Chamfered",
+      "SKU": "CT-RD-70-3-9005-C",
+      "inStock": 11
+    },
+    {
+      "id": 7,
+      "description": "Frames Slim X-type<br />Frame finish: Steel black powdercoating",
+      "SKU": "SX-B",
+      "inStock": 18
     }
   ]
 }
